@@ -1,0 +1,13 @@
+.{
+    .name = .libdisplay_info,
+    .version = "0.3.0",
+    .dependencies = .{
+        .upstream = .{
+            .url = "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/archive/0.3.0/libdisplay-info-0.3.0.tar.gz",
+            .hash = "N-V-__8AAJ27DAAl458OlnvlyC41L6LzfvTzpAhEH2u1QK8W",
+        },
+    },
+    .minimum_zig_version = "0.16.0-dev.2653+784e89fd4",
+    .paths = .{ "build.zig", "build.zig.zon", "tools", "README.md", "LICENSE" },
+    .fingerprint = 0xa70aeae58ec70d2a,
+}
